@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎮 Gamer Squad Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎉 Welcome to My Gamer Squad Hub 🎮</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>🖱️ Quick Interaction</h2>
+    <button id="greetBtn">Click Me</button>
+    <p id="greetMessage"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>🌗 Light/Dark Mode</h2>
+    <button id="toggleMode">Toggle Mode</button>
+  </section>
+
+  <section>
+    <h2>🔥 Squad Score Counter</h2>
+    <button id="counterBtn">Earn Points</button>
+    <p>Squad Score: <span id="count">0</span></p>
+  </section>
+
+  <section>
+    <h2>❓ FAQ</h2>
+    <div class="faq-item">
+      <h3 class="faq-question">How do I join the Gamer Squad?</h3>
+      <p class="faq-answer" style="display: none;">Fill out the form below with your gamer tag, email, and password — then you’re in!</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-question">What games do we play?</h3>
+      <p class="faq-answer" style="display: none;">We play FPS, RPGs, MOBAs, and strategy games — you name it!</p>
+    </div>
+  </section>
+
+  <!-- Bonus Feature -->
+  <section>
+    <h2>🎤 Random Gamer Quote</h2>
+    <button id="quoteBtn">Get a Quote</button>
+    <p id="quoteDisplay" style="font-style: italic;"></p>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>🎮 Join My Gamer Squad</h2>
+    <form id="squadForm">
+      <label>Gamer Tag: <input type="text" id="gamerName"></label>
+      <p class="error" id="nameError"></p>
+
+      <label>Email: <input type="text" id="email"></label>
+      <p class="error" id="emailError"></p>
+
+      <label>Password: <input type="password" id="password"></label>
+      <p class="error" id="passwordError"></p>
+
+      <button type="submit">Join Squad 🚀</button>
+      <p id="formSuccess" style="color: green;"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

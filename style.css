@@ -1,0 +1,60 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #4caf50;
+  color: white;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Dark mode style */
+.dark-mode {
+  background-color: #121212;
+  color: #f0f8ff;
+}
+
+/* Error messages */
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+/* FAQ styling */
+.faq-item {
+  margin: 10px 0;
+}
+
+.faq-question {
+  cursor: pointer;
+  background: #eee;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.faq-answer {
+  margin-left: 15px;
+  padding: 5px;
+}
+
+/* Quote display */
+#quoteDisplay {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #555;
+}
